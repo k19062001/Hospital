@@ -3,13 +3,6 @@ setuptools>=50.0.0
 wheel>=0.36.0
 cython>=0.29.21
 
-# Dependencies for native extensions (common for pandas)
-libatlas-base-dev
-libopenblas-dev
-libblas-dev
-gfortran
-meson
-
 Flask==3.0.3
 gunicorn==22.0.0
 joblib==1.4.2
