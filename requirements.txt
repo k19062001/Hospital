@@ -11,6 +11,16 @@ python-dotenv==1.0.1
 reportlab==4.2.5
 transformers==4.44.2
 torch==2.4.1
+
+# Build dependencies for compiling pandas and other packages
 setuptools>=50.0.0
 wheel>=0.36.0
-cython
+cython>=0.29.21
+
+# Dependencies for native extensions (common for pandas)
+libatlas-base-dev
+libopenblas-dev
+libblas-dev
+gfortran
+meson
+
